@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         WebView webView = findViewById(R.id.mwebview);
-        webView.loadUrl("https://www.google.com");
+        webView.loadUrl("https://shinjuku-musasino.net/");
+        webView.getSettings().setJavaScriptEnabled(true);
     }
 }
